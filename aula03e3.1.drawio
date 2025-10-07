@@ -1,0 +1,92 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" version="28.2.5">
+  <diagram name="Página-1" id="wDtdxY2_IoBniYwo5wt_">
+    <mxGraphModel dx="1040" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000,#545252);" vertex="1" parent="1">
+          <mxGeometry x="30" y="10" width="750" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-2" value="NIF (PK)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Fornecedor&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-4" value="Nome" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-6" value="Condições de pagamento" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="40" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-7" value="Fax" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-8" value="Endereço" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="40" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-9" value="Número da encomenda (PK)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-10" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Encomenda&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pKLedcCFIGrDwByX7Gnq-10" target="pKLedcCFIGrDwByX7Gnq-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-12" value="Data de realização" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pKLedcCFIGrDwByX7Gnq-13" target="pKLedcCFIGrDwByX7Gnq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-13" value="NIF (FK)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-15" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Produto&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-16" value="Código (PK)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-17" value="Nome" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-18" value="IVA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-19" value="Qtd em stock" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="200" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-20" value="Preço" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="200" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pKLedcCFIGrDwByX7Gnq-22" target="pKLedcCFIGrDwByX7Gnq-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="575" y="170" />
+              <mxPoint x="120" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-22" value="Número da encomenda (PK)(FK)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-23" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Agrega&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="100" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pKLedcCFIGrDwByX7Gnq-25" target="pKLedcCFIGrDwByX7Gnq-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="190" />
+              <mxPoint x="100" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKLedcCFIGrDwByX7Gnq-25" value="Código (PK)(FK)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="120" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
